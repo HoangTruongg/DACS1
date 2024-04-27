@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* =========head========= */
+
+.head img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+/* ==========thanh dieu huong======== */
+
+.fixed {
+  position: sticky;
+  top: 1px;
+  border-bottom: 1px solid #e2dfda;
+}
+
+.nav {
+  height: 4rem;
+  padding: 0 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #c9c8ff;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 7px 20px;
+  color: black;
+  font-size: 1.8rem;
+}
+.nav a:hover {
+  color: rgba(23, 58, 218, 0.685);
+}
+
+/* ==========than web======== */
+.popular {
+  padding: 20px 60px;
+  border-top: 1px solid #e2dfda;
+  background-color: #c9c8ff;
+}
+.popular .row {
+  display: flex;
+  gap: 18px;
+  margin-top: 70px;
+}
+
+.popular .row .item {
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background-color: #fff;
+}
+
+.popular .row .item:hover {
+  box-shadow: 0 18px 36px 0px rgba(0, 0, 0, 0.2);
+}
+
+.popular .row .item img {
+  border-radius: 12px 12px 0 0;
+  width: 27.5rem;
+  height: 22.5rem;
+  object-position: top;
+  object-fit: cover;
+}
+
+.popular .row .desc {
+  padding: 8px 12px 8px;
+  background-color: #9fdee0;
+}
+
+.popular .row .desc .title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+}
+
+.popular .row .desc .author {
+  margin-top: 4rem;
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.popular .row .desc hr {
+  width: 7%;
+  margin-left: 0;
+  margin-top: 15px;
+}
+
+.popular .item .foot,
+.popular .item .like,
+.popular .item .view {
+  display: flex;
+}
+
+.popular .item .foot-left {
+  display: flex;
+}
+
+.popular .item .foot {
+  justify-content: space-between;
+}
+
+.popular .item .like,
+.popular .item .view {
+  gap: 5px;
+}
+
+.popular .item .view {
+  margin-left: 18px;
+}
