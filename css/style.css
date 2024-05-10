@@ -11,8 +11,22 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-.right{
-    text-align: right;
+.right {
+  text-align: right;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 /* =========head========= */
@@ -31,18 +45,16 @@ body {
 }
 
 .nav {
-    height: 7rem;
-    padding: 0 9rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background-color: #FFFFFF;
-    
+  height: 7rem;
+  padding: 0 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #ffffff;
 }
 
 .nav a {
-  text-decoration: none;
   padding: 7px 20px;
   color: black;
   font-size: 1.8rem;
@@ -53,22 +65,21 @@ body {
 
 /* ==========than web======== */
 .popular {
-    padding: 20px 60px;
-    border-top: 1px solid #e2dfda;
-    background-color: #F5F5F5;
-    
+  padding: 20px 40px;
+  border-top: 1px solid #e2dfda;
+  background-color: #f5f5f5;
 }
 .popular .row {
   display: flex;
-  gap: 55px;
+  gap: 35px;
   margin-top: 30px;
- 
 }
 
 .popular .row .item {
-   border-radius: 5px;
-   border: 1px solid #e2dfda;
-   background-color: #FFFFFF;
+  /* height: 598px; */
+  border-radius: 15px;
+  border: 1px solid #e2dfda;
+  background-color: #ffffff;
 }
 
 .popular .row .item:hover {
@@ -77,22 +88,26 @@ body {
 
 .popular .row .item img {
   border-radius: 5px 5px 3px 3px;
-  width: 30rem;
+  width: 28rem;
   height: 23rem;
   object-position: top;
   object-fit: cover;
 }
 
-    .popular .row .desc {
-        padding: 8px 12px 8px;
-        background-color: #FFFFFF;
-    }
+.popular .row .desc {
+  padding: 8px 12px 8px;
+  background-color: #ffffff;
+}
+
+.popular .row .desc a {
+  height: 4.2rem;
+}
 
 .popular .row .desc .title {
   font-weight: 500px;
   font-size: 1.8rem;
   color: black;
-  font-weight:bold;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -113,13 +128,10 @@ body {
 .popular .item .like,
 .popular .item .view {
   display: flex;
-
 }
 
 .popular .item .foot-left {
   display: flex;
-
-
 }
 
 .popular .item .foot {
@@ -129,39 +141,74 @@ body {
 .popular .item .like,
 .popular .item .view {
   gap: 5px;
-
 }
 
 .popular .item .view {
   margin-left: 18px;
-  
 }
 .pagination {
-    display: inline-block;
-    height: 50px;
-    margin-top:20px;
-    margin-right:50px;
+  display: inline-block;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 .pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    transition: background-color .3s;
-    text-decoration: none;
-    margin: 0 4px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  margin: 0 4px;
 }
-    .pagination a.active {
-        background-color: #4CAF50;
-        color: white;
-        border: 1px solid #4CAF50;
-    }
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
 
 .pagination a:hover:not(.active) {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
+/* =============== chân trang ===================== */
 
+.footer .row {
+  display: flex;
+  background-color: #220902;
+  padding: 70px 40px 50px;
+}
 
+.footer .row .desc {
+  margin-top: 0;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  color: #e2dfda;
+}
 
+.footer .row .column {
+  width: 35%;
+}
 
+.footer .row .column:first-child {
+  width: 30%;
+}
+
+.footer .row .sosials {
+  display: flex;
+  gap: 18px;
+  margin-top: 15px;
+}
+
+.footer .column li {
+  margin-bottom: 12px;
+  color: #696968;
+}
+
+.footer .column li strong {
+  color: #e2dfda;
+}
+
+.footer .column .title {
+  color: #b2b416;
+}
