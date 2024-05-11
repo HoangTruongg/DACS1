@@ -32,9 +32,9 @@ h3 {
 /* =========head========= */
 
 .head img {
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
 }
 /* ==========thanh dieu huong======== */
 
@@ -45,14 +45,14 @@ h3 {
 }
 
 .nav {
-    width: 100%;
-    height: 7rem;
-    padding: 0 9rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background-color: #ffffff;
+  width: 100%;
+  height: 7rem;
+  padding: 0 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #ffffff;
 }
 
 .nav a {
@@ -66,43 +66,41 @@ h3 {
 
 /* ==========than web======== */
 .popular {
-    width: 100%;
-    height:auto;
-    padding: 20px 40px 70px;
-    border-top: 1px solid #e2dfda;
-    background-color: #F5F5F5;
+  width: 100%;
+  height: auto;
+  padding: 20px 40px 70px;
+  border-top: 1px solid #e2dfda;
+  background-color: #f5f5f5;
 }
-    .popular .row {
-        width: 90%;
-        display: flex;
-        gap: 3%;
-        margin-top: 60px;
-        height:400px;
-        margin-left:50px;
-    }
+.popular .row {
+  width: 90%;
+  display: flex;
+  gap: 3%;
+  margin-top: 60px;
+  height: 400px;
+  margin-left: 50px;
+}
 
-        .popular .row .item {
-            width: 100%;
-           
-            /* height: 598px; */
-            border-radius: 15px;
-            border: 1px solid #e2dfda;
-            background-color: #ffffff;
-            
-        }
+.popular .row .item {
+  width: 100%;
+
+  /* height: 598px; */
+  border-radius: 15px;
+  border: 1px solid #e2dfda;
+  background-color: #ffffff;
+}
 
 .popular .row .item:hover {
   box-shadow: 0 18px 36px 0px rgba(0, 0, 0, 0.2);
 }
 
-            .popular .row .item img {
-                
-                border-radius: 15px 15px 10px 10px;
-                width: 30rem;
-                height: 25rem;
-                object-position: top;
-                object-fit: cover;
-            }
+.popular .row .item img {
+  border-radius: 15px 15px 10px 10px;
+  width: 30rem;
+  height: 25rem;
+  object-position: top;
+  object-fit: cover;
+}
 
 .popular .row .desc {
   padding: 8px 12px 8px;
@@ -114,7 +112,6 @@ h3 {
 }
 
 .popular .row .desc .title {
-  
   font-size: 1.8rem;
   color: black;
   font-weight: bold;
@@ -184,11 +181,10 @@ h3 {
 /* =============== chân trang ===================== */
 
 .footer .row {
-    display: flex;
-    background-color: #FFFFFF;
-    padding: 30px 40px 50px;
-    border-top: 1px solid #e2dfda;
-
+  display: flex;
+  background-color: #ffffff;
+  padding: 30px 40px 50px;
+  border-top: 1px solid #e2dfda;
 }
 
 .footer .row .desc {
@@ -199,8 +195,7 @@ h3 {
 }
 
 .footer .row .column {
-  width: 35%;
-  
+  width: 30%;
 }
 
 .footer .row .column:first-child {
@@ -220,11 +215,14 @@ h3 {
 }
 
 .footer .column li strong {
-    color: #000000;
-    font-size: 18px;
+  color: #000000;
+  font-size: 18px;
 }
-
 
 .footer .column .title {
   color: #b2b416;
+}
+
+.footer .row li:first-of-type {
+  margin-right: 50px;
 }
